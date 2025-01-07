@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    position: relative;
+    height: 96vh;
+}
+
+section.cp1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+section.cp1 > h1 {
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Roboto", serif;
+    font-size: 5em;
+}
+
+section.cp1 > input#campo {
+    padding: 9px;
+    width: 600px;
+    height: 27px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(161, 159, 159, 0.753);
+}
+
+p > input { 
+   text-align: center;
+    margin: 30px;
+    padding: 10px;
+    width: 160px;
+}
+
